@@ -2,4 +2,37 @@
 
 @tailwind components;
 
+.btn {
+	@apply px-4 py-2 rounded-lg inline-block text-white;
+}
+
+.btn:hover {
+	@apply bg-blue-600;
+}
+
+.btn:focus {
+	@apply outline-none;
+}
+
+.btn-primary {
+	@apply bg-blue-500;
+}
+.btn-primary:hover {
+	@apply bg-blue-600;
+}
+
+.btn-warning {
+	@apply bg-orange-500;
+}
+.btn-warning:hover {
+	@apply bg-orange-600;
+}
+
+.btn-success {
+	@apply bg-green-500;
+}
+.btn-success:hover {
+	@apply bg-green-600;
+}
+
 @tailwind utilities;
